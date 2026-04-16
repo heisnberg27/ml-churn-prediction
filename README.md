@@ -1,16 +1,16 @@
-# 🧠 Customer Churn Prediction: ML & Deep Learning Pipeline
+#  Customer Churn Prediction: ML & Deep Learning Pipeline
 
 ## Project Overview
 
 This project implements a **hybrid machine learning and deep learning pipeline** for customer churn prediction. It integrates a **Deep Neural Network (DNN)** with the existing Random Forest classifier, providing ensemble-like capabilities and comprehensive model evaluation.
 
 ### Key Features
-- ✅ **Deep Learning Model**: 3-layer neural network with batch normalization and dropout
-- ✅ **ML Baseline**: Random Forest classifier for comparison
-- ✅ **Integrated Pipeline**: Both models share data preprocessing and evaluation
-- ✅ **Streamlit UI**: Interactive web interface for predictions
-- ✅ **Model Comparison**: Side-by-side analysis of both models
-- ✅ **Performance Metrics**: Accuracy, Precision, Recall, AUC, Loss tracking
+-  **Deep Learning Model**: 3-layer neural network with batch normalization and dropout
+-  **ML Baseline**: Random Forest classifier for comparison
+-  **Integrated Pipeline**: Both models share data preprocessing and evaluation
+-  **Streamlit UI**: Interactive web interface for predictions
+-  **Model Comparison**: Side-by-side analysis of both models
+-  **Performance Metrics**: Accuracy, Precision, Recall, AUC, Loss tracking
 
 ---
 
@@ -25,7 +25,7 @@ ml-churn-project/
 │   └── dataset_without_preprocessing.csv
 ├── models/
 │   ├── __init__.py
-│   ├── neural_network_model.py     # 🆕 Deep Learning model
+│   ├── neural_network_model.py     #  Deep Learning model
 │   ├── decision_tree_model.py
 │   ├── knn_model.py
 │   ├── logistic_model.py
@@ -128,12 +128,12 @@ streamlit run app.py
 ```
 
 Features:
-- 🧾 Customer input form (6 features)
-- 🧠 Neural Network predictions with confidence scores
-- 🌲 Random Forest predictions
-- 📊 Side-by-side model comparison
-- 📈 Performance metrics and statistics
-- 🎯 Feature importance visualization
+-  Customer input form (6 features)
+-  Neural Network predictions with confidence scores
+-  Random Forest predictions
+-  Side-by-side model comparison
+-  Performance metrics and statistics
+-  Feature importance visualization
 
 ---
 
@@ -206,25 +206,25 @@ predictor.load_model()
 ## Sample Output
 
 ```
-🧠 Neural Network Performance Metrics:
+ Neural Network Performance Metrics:
   - Accuracy:  0.8750
   - Precision: 0.8875
   - Recall:    0.8500
   - AUC:       0.9125
 
-🌲 Random Forest Performance Metrics:
+ Random Forest Performance Metrics:
   - Accuracy:  0.8625
   - Precision: 0.8750
   - Recall:    0.8375
   - F1 Score:  0.8560
 
 Customer 1:
-  Neural Network: 15.3% churn risk ✅ RETAIN
-  Random Forest:  18.7% churn risk ✅ RETAIN
+  Neural Network: 15.3% churn risk  RETAIN
+  Random Forest:  18.7% churn risk  RETAIN
 
 Customer 2:
-  Neural Network: 87.5% churn risk ⚠️ CHURN
-  Random Forest:  84.2% churn risk ⚠️ CHURN
+  Neural Network: 87.5% churn risk  CHURN
+  Random Forest:  84.2% churn risk  CHURN
 ```
 
 ---
@@ -232,16 +232,16 @@ Customer 2:
 ## Key Results & Benefits
 
 ### Neural Network Advantages
-✅ Captures non-linear patterns
-✅ Handles feature interactions automatically
-✅ Probabilistic outputs (confidence scores)
-✅ Scalable with data volume
+ Captures non-linear patterns
+ Handles feature interactions automatically
+ Probabilistic outputs (confidence scores)
+ Scalable with data volume
 
 ### Hybrid Pipeline Benefits
-✅ Combines interpretability (Random Forest) with power (Neural Network)
-✅ Model diversity reduces prediction variance
-✅ Can create predictions through ensemble
-✅ Easy comparison of different paradigms
+ Combines interpretability (Random Forest) with power (Neural Network)
+ Model diversity reduces prediction variance
+ Can create predictions through ensemble
+ Easy comparison of different paradigms
 
 ---
 
